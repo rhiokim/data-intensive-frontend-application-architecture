@@ -10,6 +10,10 @@ Data Intensive Frontend Application Architecture
   - Reusable functions to manipulate Date
   - Reusable functions to manipulate data for specific domain
 - Constants
+  - global
+    - packages/constants/src/index.ts 
+  - domain specific
+    - packages/constants/:serviceIdentifier/*.ts
 - Data
   - Refining
   - Immutability
