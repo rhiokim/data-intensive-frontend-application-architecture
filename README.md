@@ -20,4 +20,10 @@ Data Intensive Frontend Application Architecture
 - Function
 - Events
   - Device
-  - Browser 
+  - Browser
+- Type definitions
+  - 타입 선언은 IDE에서 데이터에 대한 규격을 빠르게 접근, 이해하기 위한 참조 데이터로 이 또한 데이터 중심적 사고로 접근할 수록 좋다.
+  - packages/api/src/index.ts
+    - Do have DTO(data transfer object) type definition only
+  - packages/types/src/index.ts
+    - packages/types/src/:serviceIdentifier/*.ts 
